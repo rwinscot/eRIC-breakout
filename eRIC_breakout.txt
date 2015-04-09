@@ -1,0 +1,78 @@
+eRIC Breakout Board Bill of Materials
+
+April 8, 2015
+
+
+
+part: Header 2.54mm 12 POS
+place: H1, H2
+qty: 2X
+cost: $0.59
+ROHS: YES
+
+http://www.digikey.com/product-detail/en/0022284121/WM50017-12-ND/313867
+
+
+part: Header 2.54mm 2 POS (frequency select header)
+place: H3
+qty: 1X
+cost: $0.79
+ROHS: YES
+
+http://www.digikey.com/product-detail/en/PBC02SADN/S1041E-02-ND/859731
+
+
+part: Jumper (frequency select header)
+place: H3
+qty: 1X
+cost: $0.18
+ROHS: YES
+
+http://www.digikey.com/product-detail/en/M7581-05/952-2169-ND/3728135
+
+
+part: eRIC Radio Module (select appropriate frequency for your location)
+place: primary - side A
+qty: 1X
+cost: $15
+ROHS: YES
+
+http://uk.farnell.com/lprs/eric4/trx-module-easyradio-eric-402-470mhz/dp/2362439
+http://uk.farnell.com/lprs/eric9/trx-module-easyradio-eric-868-928mhz/dp/2362440
+
+
+part: SMA Connector
+place: SMA-PCB
+qty: 1X
+cost: $2.50
+ROHS: YES
+
+https://www.adafruit.com/products/1865
+
+
+part: Antenna (select an appropriate antenna per frequency)
+place: external
+qty: 1X
+cost: ~$5
+ROHS: verify with supplier
+
+http://www.lprs.co.uk/wireless-modules/antennas/whip-antennas.html
+
+
+part: Resistor
+place: R1, R2
+qty: 2X
+cost: $0.10
+ROHS: YES
+
+http://www.digikey.com/product-detail/en/0/1276-3431-1-ND
+
+
+part: Capacitor
+place: C1
+qty: 1X
+cost: $0.11
+ROHS: YES
+
+http://www.digikey.com/product-detail/en/0/1276-1061-1-ND
+
