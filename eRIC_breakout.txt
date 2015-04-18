@@ -1,6 +1,6 @@
 eRIC Breakout Board Bill of Materials
 
-April 8, 2015
+April 18, 2015
 
 
 
@@ -14,7 +14,7 @@ http://www.digikey.com/product-detail/en/0022284121/WM50017-12-ND/313867
 
 
 part: Header 2.54mm 2 POS (frequency select header)
-place: H3
+place: H2 (GND + FRQ)
 qty: 1X
 cost: $0.79
 ROHS: YES
@@ -23,7 +23,7 @@ http://www.digikey.com/product-detail/en/PBC02SADN/S1041E-02-ND/859731
 
 
 part: Jumper (frequency select header)
-place: H3
+place: N/A
 qty: 1X
 cost: $0.18
 ROHS: YES
@@ -32,7 +32,7 @@ http://www.digikey.com/product-detail/en/M7581-05/952-2169-ND/3728135
 
 
 part: eRIC Radio Module (select appropriate frequency for your location)
-place: primary - side A
+place: eRIC (top board)
 qty: 1X
 cost: $15
 ROHS: YES
@@ -42,7 +42,7 @@ http://uk.farnell.com/lprs/eric9/trx-module-easyradio-eric-868-928mhz/dp/2362440
 
 
 part: SMA Connector
-place: SMA-PCB
+place: SMA (top board)
 qty: 1X
 cost: $2.50
 ROHS: YES
@@ -51,7 +51,7 @@ https://www.adafruit.com/products/1865
 
 
 part: Antenna (select an appropriate antenna per frequency)
-place: external
+place: N/A
 qty: 1X
 cost: ~$5
 ROHS: verify with supplier
