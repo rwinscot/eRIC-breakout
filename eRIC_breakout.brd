@@ -494,7 +494,7 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="IC1" library="lprs" package="ERIC" value="ERIC" x="4.6355" y="42.8625"/>
+<element name="ERIC" library="lprs" package="ERIC" value="ERIC" x="4.6355" y="42.8625"/>
 <element name="H2" library="adafruit" package="1X12-CB" value="" x="19.8755" y="18.7325" rot="R270"/>
 <element name="H1" library="adafruit" package="1X12-CB" value="" x="4.6355" y="18.7325" rot="R270"/>
 <element name="R1" library="adafruit" package="R0603" value="" x="7.493" y="30.48" rot="MR270"/>
@@ -504,11 +504,11 @@ Please make sure your boards conform to these design rules.</description>
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="IC1" pad="AGND"/>
+<contactref element="ERIC" pad="AGND"/>
 <contactref element="H2" pad="12"/>
 <contactref element="H2" pad="1"/>
 <contactref element="C1" pad="1"/>
-<contactref element="IC1" pad="GND"/>
+<contactref element="ERIC" pad="GND"/>
 <contactref element="H1" pad="7"/>
 <polygon width="0.4064" layer="1">
 <vertex x="22.733" y="65.8025"/>
@@ -541,7 +541,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$1">
 <contactref element="H1" pad="1"/>
-<contactref element="IC1" pad="CD"/>
+<contactref element="ERIC" pad="CD"/>
 <wire x1="4.6355" y1="32.7025" x2="4.6355" y2="58.59245" width="0.254" layer="16"/>
 <wire x1="4.6355" y1="58.59245" x2="5.007475" y2="59.490475" width="0.254" layer="16" curve="-45"/>
 <wire x1="5.007475" y1="59.490475" x2="6.1595" y2="60.6425" width="0.254" layer="16"/>
@@ -550,7 +550,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$2">
 <contactref element="H1" pad="2"/>
-<contactref element="IC1" pad="BUSY"/>
+<contactref element="ERIC" pad="BUSY"/>
 <wire x1="4.6355" y1="30.1625" x2="5.851025" y2="31.378025" width="0.254" layer="16"/>
 <wire x1="5.851025" y1="31.378025" x2="6.223" y2="32.27605" width="0.254" layer="16" curve="45"/>
 <wire x1="6.223" y1="32.27605" x2="6.223" y2="58.1025" width="0.254" layer="16"/>
@@ -559,14 +559,14 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$3">
 <contactref element="J$1" pad="SIG"/>
-<contactref element="IC1" pad="ANT"/>
+<contactref element="ERIC" pad="ANT"/>
 <via x="7.1755" y="67.945" extent="1-16" drill="1"/>
 <wire x1="7.1755" y1="63.1825" x2="7.1755" y2="67.945" width="0.4064" layer="1"/>
 <wire x1="7.1755" y1="67.945" x2="7.1755" y2="68.2625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDO">
 <contactref element="R1" pad="2"/>
-<contactref element="IC1" pad="SDO"/>
+<contactref element="ERIC" pad="SDO"/>
 <contactref element="H1" pad="3"/>
 <contactref element="R1" pad="1"/>
 <wire x1="4.6355" y1="27.6225" x2="4.95945" y2="27.6225" width="0.254" layer="16"/>
@@ -580,7 +580,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="SDI">
 <contactref element="R2" pad="1"/>
 <contactref element="H1" pad="4"/>
-<contactref element="IC1" pad="SDI"/>
+<contactref element="ERIC" pad="SDI"/>
 <contactref element="R2" pad="2"/>
 <wire x1="4.6355" y1="25.0825" x2="6.428865625" y2="25.0825" width="0.254" layer="16"/>
 <wire x1="6.428865625" y1="25.0825" x2="7.041603125" y2="25.240090625" width="0.254" layer="16" curve="28.846859"/>
@@ -594,7 +594,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$8">
 <contactref element="H1" pad="5"/>
-<contactref element="IC1" pad="HR"/>
+<contactref element="ERIC" pad="HR"/>
 <wire x1="9.398" y1="50.4825" x2="9.398" y2="25.67205" width="0.254" layer="16"/>
 <wire x1="9.398" y1="25.67205" x2="9.026025" y2="24.774025" width="0.254" layer="16" curve="-45"/>
 <wire x1="9.026025" y1="24.774025" x2="7.166475" y2="22.914475" width="0.254" layer="16"/>
@@ -605,7 +605,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="VCC">
 <contactref element="H1" pad="6"/>
-<contactref element="IC1" pad="VCC"/>
+<contactref element="ERIC" pad="VCC"/>
 <contactref element="C1" pad="2"/>
 <wire x1="7.493" y1="19.925" x2="7.4155" y2="20.0025" width="0.254" layer="16"/>
 <wire x1="7.4155" y1="20.0025" x2="4.6355" y2="20.0025" width="0.254" layer="16"/>
@@ -622,13 +622,13 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$11">
 <contactref element="H1" pad="8"/>
-<contactref element="IC1" pad="E8"/>
+<contactref element="ERIC" pad="E8"/>
 <wire x1="7.1755" y1="42.8625" x2="7.1755" y2="17.98855" width="0.254" layer="1"/>
 <wire x1="7.1755" y1="17.98855" x2="6.803525" y2="17.090525" width="0.254" layer="1" curve="-45"/>
 <wire x1="6.803525" y1="17.090525" x2="4.6355" y2="14.9225" width="0.254" layer="1"/>
 </signal>
 <signal name="N$12">
-<contactref element="IC1" pad="E9"/>
+<contactref element="ERIC" pad="E9"/>
 <contactref element="H1" pad="9"/>
 <wire x1="9.7155" y1="42.8625" x2="9.7155" y2="42.291" width="0.254" layer="1"/>
 <wire x1="9.7155" y1="42.291" x2="8.055475" y2="40.630975" width="0.254" layer="1"/>
@@ -639,7 +639,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$13">
 <contactref element="H1" pad="10"/>
-<contactref element="IC1" pad="E10"/>
+<contactref element="ERIC" pad="E10"/>
 <wire x1="12.2555" y1="42.8625" x2="8.563475" y2="39.170475" width="0.254" layer="1"/>
 <wire x1="8.563475" y1="39.170475" x2="8.1915" y2="38.27245" width="0.254" layer="1" curve="45"/>
 <wire x1="8.1915" y1="38.27245" x2="8.1915" y2="13.92455" width="0.254" layer="1"/>
@@ -647,7 +647,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="7.819525" y1="13.026525" x2="4.6355" y2="9.8425" width="0.254" layer="1"/>
 </signal>
 <signal name="N$14">
-<contactref element="IC1" pad="E11"/>
+<contactref element="ERIC" pad="E11"/>
 <contactref element="H1" pad="11"/>
 <wire x1="14.7955" y1="42.8625" x2="14.360025" y2="42.8625" width="0.254" layer="1"/>
 <wire x1="14.360025" y1="42.8625" x2="13.9110125" y2="42.6765125" width="0.254" layer="1" curve="45"/>
@@ -659,7 +659,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$15">
 <contactref element="H1" pad="12"/>
-<contactref element="IC1" pad="E12"/>
+<contactref element="ERIC" pad="E12"/>
 <wire x1="17.3355" y1="42.8625" x2="16.709525" y2="42.8625" width="0.254" layer="1"/>
 <wire x1="16.709525" y1="42.8625" x2="16.2605125" y2="42.6765125" width="0.254" layer="1" curve="45"/>
 <wire x1="16.2605125" y1="42.6765125" x2="9.579475" y2="35.995475" width="0.254" layer="1"/>
@@ -669,7 +669,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="8.835525" y1="8.962525" x2="4.6355" y2="4.7625" width="0.254" layer="1"/>
 </signal>
 <signal name="N$24">
-<contactref element="IC1" pad="FS"/>
+<contactref element="ERIC" pad="FS"/>
 <contactref element="H2" pad="11"/>
 <wire x1="19.8755" y1="7.3025" x2="21.726025" y2="9.153025" width="0.254" layer="1"/>
 <wire x1="21.726025" y1="9.153025" x2="22.098" y2="10.05105" width="0.254" layer="1" curve="45"/>
@@ -678,7 +678,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="21.726025" y1="46.091975" x2="19.8755" y2="47.9425" width="0.254" layer="1"/>
 </signal>
 <signal name="N$25">
-<contactref element="IC1" pad="E13"/>
+<contactref element="ERIC" pad="E13"/>
 <contactref element="H2" pad="10"/>
 <wire x1="19.8755" y1="9.8425" x2="21.726025" y2="11.693025" width="0.254" layer="16"/>
 <wire x1="21.726025" y1="11.693025" x2="22.098" y2="12.59105" width="0.254" layer="16" curve="45"/>
@@ -690,7 +690,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="21.082" y1="44.196" x2="19.8755" y2="45.4025" width="0.254" layer="1"/>
 </signal>
 <signal name="N$16">
-<contactref element="IC1" pad="E15"/>
+<contactref element="ERIC" pad="E15"/>
 <contactref element="H2" pad="9"/>
 <wire x1="19.8755" y1="12.3825" x2="11.166975" y2="21.091025" width="0.254" layer="16"/>
 <wire x1="11.166975" y1="21.091025" x2="10.795" y2="21.98905" width="0.254" layer="16" curve="-45"/>
@@ -700,7 +700,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$17">
 <contactref element="H2" pad="8"/>
-<contactref element="IC1" pad="E16"/>
+<contactref element="ERIC" pad="E16"/>
 <wire x1="19.8755" y1="14.9225" x2="12.309975" y2="22.488025" width="0.254" layer="16"/>
 <wire x1="12.309975" y1="22.488025" x2="11.938" y2="23.38605" width="0.254" layer="16" curve="-45"/>
 <wire x1="11.938" y1="23.38605" x2="11.938" y2="53.0225" width="0.254" layer="16"/>
@@ -708,7 +708,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="11.938" y1="53.0225" x2="19.8755" y2="53.0225" width="0.254" layer="1"/>
 </signal>
 <signal name="N$18">
-<contactref element="IC1" pad="E17"/>
+<contactref element="ERIC" pad="E17"/>
 <contactref element="H2" pad="7"/>
 <wire x1="19.8755" y1="17.4625" x2="13.452975" y2="23.885025" width="0.254" layer="16"/>
 <wire x1="13.452975" y1="23.885025" x2="13.081" y2="24.78305" width="0.254" layer="16" curve="-45"/>
@@ -718,7 +718,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$19">
 <contactref element="H2" pad="6"/>
-<contactref element="IC1" pad="E18"/>
+<contactref element="ERIC" pad="E18"/>
 <wire x1="19.8755" y1="20.0025" x2="14.595975" y2="25.282025" width="0.254" layer="16"/>
 <wire x1="14.595975" y1="25.282025" x2="14.224" y2="26.18005" width="0.254" layer="16" curve="-45"/>
 <wire x1="14.224" y1="26.18005" x2="14.224" y2="58.1025" width="0.254" layer="16"/>
@@ -726,7 +726,7 @@ Please make sure your boards conform to these design rules.</description>
 <via x="14.224" y="58.1025" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="N$20">
-<contactref element="IC1" pad="E19"/>
+<contactref element="ERIC" pad="E19"/>
 <contactref element="H2" pad="5"/>
 <wire x1="19.8755" y1="60.6425" x2="18.6055" y2="59.436" width="0.254" layer="1"/>
 <wire x1="18.6055" y1="59.436" x2="18.53024375" y2="59.3482" width="0.254" layer="16"/>
@@ -738,7 +738,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$21">
 <contactref element="H2" pad="4"/>
-<contactref element="IC1" pad="E20"/>
+<contactref element="ERIC" pad="E20"/>
 <wire x1="17.3355" y1="63.1825" x2="17.2085" y2="60.706" width="0.254" layer="1"/>
 <wire x1="17.2085" y1="60.706" x2="17.272" y2="25.0825" width="0.254" layer="16"/>
 <wire x1="17.272" y1="25.0825" x2="19.8755" y2="25.0825" width="0.254" layer="1"/>
@@ -746,7 +746,7 @@ Please make sure your boards conform to these design rules.</description>
 <via x="17.272" y="25.0825" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="N$22">
-<contactref element="IC1" pad="E21"/>
+<contactref element="ERIC" pad="E21"/>
 <contactref element="H2" pad="3"/>
 <wire x1="14.7955" y1="63.1825" x2="15.9385" y2="62.0395" width="0.254" layer="1"/>
 <wire x1="15.9385" y1="62.0395" x2="16.068771875" y2="61.89061875" width="0.254" layer="16"/>
@@ -757,7 +757,7 @@ Please make sure your boards conform to these design rules.</description>
 <via x="16.383" y="27.6225" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="N$23">
-<contactref element="IC1" pad="E22"/>
+<contactref element="ERIC" pad="E22"/>
 <contactref element="H2" pad="2"/>
 <wire x1="12.2555" y1="63.1825" x2="13.97" y2="61.4045" width="0.254" layer="1"/>
 <wire x1="13.97" y1="61.4045" x2="15.058525" y2="60.315975" width="0.254" layer="16"/>
