@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0635" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0635" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -4934,9 +4934,9 @@ Metric Code Size 5664</description>
 <part name="ERIC" library="lprs" deviceset="ERIC" device=""/>
 <part name="H2" library="adafruit" deviceset="PINHD-1X12" device="-CB"/>
 <part name="H1" library="adafruit" deviceset="PINHD-1X12" device="-CB"/>
-<part name="R1" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R2" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="C1" library="adafruit" deviceset="C-US" device="C0603K"/>
+<part name="R1" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R2" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="C1" library="adafruit" deviceset="C-US" device="C0603K" value=".1uF"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="J$1" library="SparkFun-Connectors" deviceset="SMA_EDGE" device=""/>

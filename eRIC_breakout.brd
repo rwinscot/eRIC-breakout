@@ -497,9 +497,9 @@ Please make sure your boards conform to these design rules.</description>
 <element name="ERIC" library="lprs" package="ERIC" value="ERIC" x="4.6355" y="42.8625"/>
 <element name="H2" library="adafruit" package="1X12-CB" value="" x="19.8755" y="18.7325" rot="R270"/>
 <element name="H1" library="adafruit" package="1X12-CB" value="" x="4.6355" y="18.7325" rot="R270"/>
-<element name="R1" library="adafruit" package="R0603" value="" x="7.493" y="30.48" rot="MR270"/>
-<element name="R2" library="adafruit" package="R0603" value="" x="7.518" y="26.3525" rot="MR270"/>
-<element name="C1" library="adafruit" package="C0603K" value="" x="7.493" y="19.05" rot="MR90"/>
+<element name="R1" library="adafruit" package="R0603" value="10K" x="7.493" y="30.48" rot="MR270"/>
+<element name="R2" library="adafruit" package="R0603" value="10K" x="7.518" y="26.3525" rot="MR270"/>
+<element name="C1" library="adafruit" package="C0603K" value=".1uF" x="7.493" y="19.05" rot="MR90"/>
 <element name="J$1" library="SparkFun-Connectors" package="SMA-EDGE" value="SMA_EDGE" x="4.6355" y="68.2625"/>
 </elements>
 <signals>
